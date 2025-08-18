@@ -12,7 +12,7 @@ export class LitFooter extends LitElement {
 
 	// Render the UI as a function of component state
 	render() {
-		return html`<footer>&copy; ${this.today.getFullYear()} yu. All rights reserved.</footer> `
+		return html`<footer>&copy; ${this.today.getFullYear()} AstralBit All rights reserved.</footer> `
 	}
 }
 
