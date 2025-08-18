@@ -9,8 +9,8 @@ interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-	author: 'yu', // Site author
-	title: 'yu blog', // Site title.
+	author: 'AstralBit', // Site author
+	title: 'AstralBit', // Site title.
 	description: 'records and technology', // Description to display in the meta tags
 	lang: 'en-GB',
 	ogLocale: 'en_GB',
