@@ -3,6 +3,7 @@ import mdx from '@astrojs/mdx'
 import lit from '@astrojs/lit';
 import sitemap from '@astrojs/sitemap'
 import tailwind from '@astrojs/tailwind'
+import image from '@astrojs/image' // 添加这行
 import { remarkReadingTime } from './src/utils/readTime.ts'
 
 // https://astro.build/config
@@ -30,6 +31,7 @@ export default defineConfig({
 		}),
 		sitemap(),
 		tailwind(),
-		lit()
+		lit(),
+		image() // 添加这行
 	]
 })
