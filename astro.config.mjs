@@ -32,6 +32,9 @@ export default defineConfig({
 		sitemap(),
 		tailwind(),
 		lit(),
-		image() // 添加这行
+		image({
+			// 配置图片服务
+			serviceEntryPoint: '@astrojs/image/sharp'
+		})
 	]
 })

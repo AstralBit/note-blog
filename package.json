@@ -39,7 +39,8 @@
 		"@webcomponents/template-shadowroot": "^0.2.1",
 		"astro": "4.5.12",
 		"astro-font": "^0.0.72",
-		"lit": "^3.1.2"
+		"lit": "^3.1.2",
+		"sharp": "^0.34.3"
 	},
 	"devDependencies": {
 		"@astrojs/mdx": "2.0.3",
